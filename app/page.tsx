@@ -506,25 +506,25 @@ export default function ResumePage() {
             <Users className="text-[#ba1b1b] w-5 h-5 mr-2" />
             REFEREES
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full print:grid-cols-2 print:gap-2">
-            <div className="bg-gray-50 rounded-lg p-2 border border-gray-100 flex items-center shadow-sm w-full print:bg-white print:shadow-none print:p-1.5">
-              <div className="w-8 h-8 bg-[#ba1b1b] rounded-full flex items-center justify-center text-white font-bold mr-2 flex-shrink-0">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full print:grid-cols-2 print:gap-4">
+            <div className="flex items-center w-full p-3 print:p-2">
+              <div className="w-10 h-10 bg-[#ba1b1b] rounded-full flex items-center justify-center text-white font-bold mr-3 shrink-0">
                 EK
               </div>
               <div className="text-left">
-                <p className="font-medium text-md text-gray-800 print:text-sm">Elisate Kanza</p>
-                <p className="text-md text-gray-600 print:text-xs">Director, Conveyance Logistics Limited</p>
-                <p className="text-md text-[#ba1b1b] print:text-xs">info@conveyance.co.tz</p>
+                <p className="font-semibold text-md text-gray-900 print:text-sm">Elisate Kanza</p>
+                <p className="text-sm text-gray-600 print:text-xs">Director, Conveyance Logistics Limited</p>
+                <p className="text-sm text-[#ba1b1b] print:text-xs">info@conveyance.co.tz</p>
               </div>
             </div>
-            <div className="bg-gray-50 rounded-lg p-2 border border-gray-100 flex items-center shadow-sm w-full print:bg-white print:shadow-none print:p-1.5">
-              <div className="w-8 h-8 bg-[#ba1b1b] rounded-full flex items-center justify-center text-white font-bold mr-2 flex-shrink-0">
+            <div className="flex items-center w-full p-3 print:p-2">
+              <div className="w-10 h-10 bg-[#ba1b1b] rounded-full flex items-center justify-center text-white font-bold mr-3 shrink-0">
                 PS
               </div>
               <div className="text-left">
-                <p className="font-medium text-md text-gray-800 print:text-sm">Peter Sanga</p>
-                <p className="text-md text-gray-600 print:text-xs">Officer, GPSA, Tanzania</p>
-                <p className="text-md text-[#ba1b1b] print:text-xs">perersanga@gmail.com</p>
+                <p className="font-semibold text-md text-gray-900 print:text-sm">Peter Sanga</p>
+                <p className="text-sm text-gray-600 print:text-xs">Officer, GPSA, Tanzania</p>
+                <p className="text-sm text-[#ba1b1b] print:text-xs">perersanga@gmail.com</p>
               </div>
             </div>
           </div>
