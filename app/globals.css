@@ -1,0 +1,235 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  /* Updated primary color to fiery red */
+  --primary: oklch(0.55 0.22 25);
+  --primary-foreground: oklch(0.99 0 0);
+  /* Updated secondary to complement fiery red */
+  --secondary: oklch(0.95 0.015 25);
+  --secondary-foreground: oklch(0.145 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  /* Updated accent to match red theme */
+  --accent: oklch(0.95 0.015 25);
+  --accent-foreground: oklch(0.145 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.55 0.22 25);
+  /* Updated chart colors to red/warm palette */
+  --chart-1: oklch(0.55 0.22 25);
+  --chart-2: oklch(0.65 0.18 40);
+  --chart-3: oklch(0.75 0.15 60);
+  --chart-4: oklch(0.6 0.2 15);
+  --chart-5: oklch(0.7 0.16 35);
+  --radius: 0.625rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  /* Updated sidebar primary to fiery red */
+  --sidebar-primary: oklch(0.55 0.22 25);
+  --sidebar-primary-foreground: oklch(0.99 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.145 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.145 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  /* Updated dark mode primary to bright fiery red */
+  --primary: oklch(0.65 0.25 25);
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: oklch(0.269 0 0);
+  --input: oklch(0.269 0 0);
+  /* Updated dark mode ring to red */
+  --ring: oklch(0.65 0.25 25);
+  /* Updated dark mode chart colors to red/warm palette */
+  --chart-1: oklch(0.65 0.25 25);
+  --chart-2: oklch(0.7 0.2 40);
+  --chart-3: oklch(0.8 0.16 60);
+  --chart-4: oklch(0.68 0.22 15);
+  --chart-5: oklch(0.75 0.18 35);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  /* Updated dark mode sidebar primary to fiery red */
+  --sidebar-primary: oklch(0.65 0.25 25);
+  --sidebar-primary-foreground: oklch(0.99 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(0.269 0 0);
+  --sidebar-ring: oklch(0.439 0 0);
+}
+
+@theme inline {
+  --font-sans: "Geist", "Geist Fallback";
+  --font-mono: "Geist Mono", "Geist Mono Fallback";
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Added print styles for A4 resume printing */
+@media print {
+  @page {
+    size: A4;
+    margin: 0.5in 0.75in;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .print\:break-before-page {
+    break-before: page;
+    page-break-before: always;
+  }
+
+  button {
+    display: none !important;
+  }
+
+  .hover\:shadow,
+  .hover\:shadow-md {
+    box-shadow: none !important;
+  }
+
+  .bg-gradient-to-r {
+    background: #1e40af !important;
+    color: white !important;
+  }
+
+  .bg-red-100,
+  .bg-sky-100,
+  .bg-blue-100,
+  .bg-green-100,
+  .bg-yellow-100,
+  .bg-indigo-100,
+  .bg-purple-100 {
+    background-color: #f3f4f6 !important;
+    border: 1px solid #d1d5db !important;
+  }
+
+  .text-red-700,
+  .text-sky-700,
+  .text-blue-700,
+  .text-green-700,
+  .text-yellow-700,
+  .text-indigo-700,
+  .text-purple-700 {
+    color: #374151 !important;
+  }
+
+  .text-indigo-800,
+  .text-emerald-800,
+  .text-indigo-700,
+  .text-emerald-700 {
+    color: #000000 !important;
+  }
+
+  .bg-indigo-100,
+  .bg-emerald-100 {
+    background-color: #e5e7eb !important;
+    border: 1px solid #d1d5db !important;
+  }
+
+  .bg-gradient-to-r.from-blue-600,
+  .bg-gradient-to-r.from-green-600 {
+    background: #374151 !important;
+  }
+
+  section {
+    page-break-inside: avoid;
+  }
+
+  * {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  svg {
+    print-color-adjust: exact;
+  }
+
+  * {
+    box-shadow: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+
+  ul,
+  ol {
+    margin-left: 1em;
+  }
+
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+}
