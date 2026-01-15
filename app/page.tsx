@@ -452,44 +452,13 @@ export default function ResumePage() {
             </h3>
             <div className="mb-4">
               <h4 className="font-semibold text-gray-900 print:text-sm">
-                Diploma in Information Communication Technology
+                Bachelor Degree in Information Technology & Computer Programming
               </h4>
               <p className="text-[#ba1b1b] font-medium text-sm print:text-xs">National Insitute of Tansport (NIT)</p>
               <div className="flex items-center mt-2">
                 <span className="text-xs px-2 py-1 bg-red-50 text-[#ba1b1b] rounded-full">2019 - 2022</span>
               </div>
             </div>
-          </section>
-
-          <section className="mb-6 print:mb-4">
-            <h3 className="text-lg font-bold text-[#a71c1c] mb-3 pb-1 border-b-2 border-red-100 flex items-center print:text-base print:mb-2">
-              <Mic className="text-[#ba1b1b] w-5 h-5 mr-2" />
-              TALKS & COMMUNITY INVOLVEMENT
-            </h3>
-            <ul className="space-y-2 print:space-y-1">
-              <li className="flex items-start">
-                <svg className="w-4 h-4 mr-2 text-[#ba1b1b]" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" />
-                </svg>
-                <span className="text-sm print:text-xs">Regular speaker at Dar Tech Community Events</span>
-              </li>
-              <li className="flex items-start">
-                <svg className="w-4 h-4 mr-2 text-[#ba1b1b]" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" />
-                </svg>
-                <span className="text-sm print:text-xs">Tech Mentor at local coding bootcamps</span>
-              </li>
-              <li className="flex items-start">
-                <svg className="w-4 h-4 mr-2 text-[#ba1b1b]" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" />
-                </svg>
-                <span className="text-sm print:text-xs">Open source contributor</span>
-              </li>
-              <li className="flex items-start">
-                <Users className="w-4 h-4 mr-2 text-[#ba1b1b]" />
-                <span className="text-sm print:text-xs">Active member of Tanzania Developers Community</span>
-              </li>
-            </ul>
           </section>
 
           <section className="mb-8 print:mb-4">
@@ -524,7 +493,7 @@ export default function ResumePage() {
               </div>
               <div className="text-left">
                 <p className="font-medium text-md text-gray-800 print:text-sm">Elisate Kanza</p>
-                <p className="text-md text-gray-600 print:text-xs">Manager, Conveyance Logistics Limited</p>
+                <p className="text-md text-gray-600 print:text-xs">Director, Conveyance Logistics Limited</p>
                 <p className="text-md text-[#ba1b1b] print:text-xs">info@conveyance.co.tz</p>
               </div>
             </div>
