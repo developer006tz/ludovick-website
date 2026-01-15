@@ -421,6 +421,26 @@ export default function ResumePage() {
             </h3>
 
             <div className="space-y-4 print:space-y-3">
+              <div className="bg-white border border-red-100 rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow print:p-3 print:shadow-none">
+                <div className="flex items-start justify-between mb-2">
+                  <h4 className="font-semibold text-[#ba1b1b] mb-1 print:text-sm">
+                    <a
+                      href="https://nuvia.co.tz"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      Nuvia Business Tool
+                    </a>
+                  </h4>
+                  <span className="text-xs px-2 py-1 bg-red-50 text-[#ba1b1b] rounded-full whitespace-nowrap ml-2 print:px-1.5 print:py-0.5">
+                    2025
+                  </span>
+                </div>
+                <p className="text-gray-700 text-sm print:text-xs">
+                  Comprehensive business management platform enabling small to growing businesses to streamline operations including invoicing, online sales, payment processing, inventory management, and financial analytics—all within a single integrated platform designed for modern African enterprises.
+                </p>
+              </div>
               <div className="bg-white border border-red-100 rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow print:p-3 print:shadow-none print:mt-0 print:pt-6 print:break-before-page">
                 <div className="flex items-start justify-between mb-2">
                   <h4 className="font-semibold text-[#ba1b1b] mb-1 print:text-sm">
