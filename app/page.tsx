@@ -510,37 +510,6 @@ export default function ResumePage() {
               </div>
             </div>
           </section>
-
-          <section className="mb-8 print:mb-4 print:mt-0 print:pt-6 print:break-before-page">
-            <h3 className="text-lg font-bold text-[#a71c1c] mb-3 pb-1 border-b-2 border-red-100 flex items-center justify-center">
-              <Users className="text-[#ba1b1b] w-5 h-5 mr-2" />
-              REFERENCES
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center print:gap-4">
-              <div className="print:text-left">
-                <div className="flex items-center justify-center print:justify-start mb-2">
-                  <div className="w-8 h-8 bg-[#ba1b1b] rounded-full flex items-center justify-center text-white font-bold mr-2 flex-shrink-0">
-                    M
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-900 text-sm print:text-xs">Mr. Paul Andrew</p>
-                  </div>
-                </div>
-                <p className="text-md text-[#ba1b1b] print:text-xs">info@conveyance.co.tz</p>
-              </div>
-              <div className="print:text-left">
-                <div className="flex items-center justify-center print:justify-start mb-2">
-                  <div className="w-8 h-8 bg-[#ba1b1b] rounded-full flex items-center justify-center text-white font-bold mr-2 flex-shrink-0">
-                    E
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-900 text-sm print:text-xs">Eng. Peter E. Sanga</p>
-                  </div>
-                </div>
-                <p className="text-md text-[#ba1b1b] print:text-xs">perersanga@gmail.com</p>
-              </div>
-            </div>
-          </section>
         </div>
 
         <footer className="text-center py-4 px-8 bg-white print:py-3 print:px-6">
@@ -565,7 +534,7 @@ export default function ResumePage() {
               </div>
               <div className="text-left">
                 <p className="font-medium text-md text-gray-800 print:text-sm">Peter Sanga</p>
-                <p className="text-md text-gray-600 print:text-xs">Clearing Officer, GPSA, Tanzania</p>
+                <p className="text-md text-gray-600 print:text-xs">Officer, GPSA, Tanzania</p>
                 <p className="text-md text-[#ba1b1b] print:text-xs">perersanga@gmail.com</p>
               </div>
             </div>
