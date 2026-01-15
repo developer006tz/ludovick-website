@@ -63,12 +63,10 @@ export const metadata: Metadata = {
         alt: "Ludovick Konyo - Software Architect",
       },
     ],
-    profile: {
-      firstName: "Ludovick",
-      lastName: "Konyo",
-      username: "developer006tz",
-      gender: "male",
-    },
+    firstName: "Ludovick",
+    lastName: "Konyo",
+    username: "developer006tz",
+    gender: "male",
   },
   twitter: {
     card: "summary_large_image",
