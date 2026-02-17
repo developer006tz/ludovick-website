@@ -435,7 +435,7 @@ export default function ResumePage() {
             </h3>
             <div className="mb-4">
               <h4 className="font-semibold text-gray-900 print:text-sm">
-                Bachelor of Science in Information Technology
+                Bachelor Degree
               </h4>
               <p className="text-[#ba1b1b] font-medium text-sm print:text-xs">National Insitute of Tansport (NIT)</p>
             </div>
