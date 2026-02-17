@@ -3,7 +3,6 @@
 import { useState } from "react"
 import {
   Mail,
-  Phone,
   MapPin,
   Linkedin,
   Github,
@@ -15,7 +14,6 @@ import {
   GraduationCap,
   Mic,
   Languages,
-  Users,
   X,
   Server,
   Terminal,
@@ -55,12 +53,6 @@ export default function ResumePage() {
                 <Mail className="text-[#e75321] w-5 h-5 mr-2 flex-shrink-0" aria-hidden="true" />
                 <span className="text-gray-700 font-medium" itemProp="email">
                   developer.ludovic@gmail.com
-                </span>
-              </div>
-              <div className="flex items-center justify-center md:justify-start bg-red-50 rounded-full px-3 py-1.5 shadow-sm">
-                <Phone className="text-[#e75321] w-5 h-5 mr-2 flex-shrink-0" aria-hidden="true" />
-                <span className="text-gray-700 font-medium" itemProp="telephone">
-                  +255746828843
                 </span>
               </div>
               <div className="flex items-center justify-center md:justify-start bg-red-50 rounded-full px-3 py-1.5 shadow-sm">
@@ -225,35 +217,6 @@ export default function ResumePage() {
             </h3>
 
             <div className="relative border-l-2 border-red-200 pl-6 ml-3">
-              <div className="mb-6 relative print:mb-4">
-                <div className="absolute w-4 h-4 bg-[#ba1b1b] rounded-full -left-8 top-1"></div>
-                <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
-                  <div>
-                    <h4 className="font-semibold text-gray-900 print:text-sm">Applications Programmer</h4>
-                    <p className="text-[#ba1b1b] font-medium text-sm print:text-xs">Government of Tanzania</p>
-                  </div>
-                  <span className="text-sm text-gray-600 bg-red-50 px-3 py-1 rounded-full font-medium mt-1 md:mt-0 print:text-xs print:px-2 print:py-0.5">
-                    December 2025 - Present
-                  </span>
-                </div>
-                <ul className="list-disc list-outside text-sm text-gray-700 mt-2 space-y-1 print:text-xs print:space-y-0.5">
-                  <li>
-                    Design, develop, and maintain government software applications and systems to support public sector
-                    operations.
-                  </li>
-                  <li>
-                    Collaborate with government departments to analyze requirements and deliver digital transformation
-                    solutions.
-                  </li>
-                  <li>
-                    Ensure compliance with government IT policies, security standards, and data protection regulations.
-                  </li>
-                  <li>
-                    Provide technical support and training to government staff on developed applications and systems.
-                  </li>
-                </ul>
-              </div>
-
               <div className="mb-6 relative print:mb-4">
                 <div className="absolute w-4 h-4 bg-[#ba1b1b] rounded-full -left-8 top-1"></div>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
@@ -502,35 +465,8 @@ export default function ResumePage() {
         </div>
 
         <footer className="text-center py-4 px-8 bg-white print:py-3 print:px-6">
-          <h3 className="text-lg font-bold text-[#a71c1c] mb-3 pb-1 border-b-2 border-red-100 flex items-center justify-center print:text-base print:mb-2">
-            <Users className="text-[#ba1b1b] w-5 h-5 mr-2" />
-            REFEREES
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full print:grid-cols-2 print:gap-4">
-            <div className="flex items-center w-full p-3 print:p-2">
-              <div className="w-10 h-10 bg-[#ba1b1b] rounded-full flex items-center justify-center text-white font-bold mr-3 shrink-0">
-                EK
-              </div>
-              <div className="text-left">
-                <p className="font-semibold text-md text-gray-900 print:text-sm">Elisate Kanza</p>
-                <p className="text-sm text-gray-600 print:text-xs">Director, Conveyance Logistics Limited</p>
-                <p className="text-sm text-[#ba1b1b] print:text-xs">info@conveyance.co.tz</p>
-              </div>
-            </div>
-            <div className="flex items-center w-full p-3 print:p-2">
-              <div className="w-10 h-10 bg-[#ba1b1b] rounded-full flex items-center justify-center text-white font-bold mr-3 shrink-0">
-                PS
-              </div>
-              <div className="text-left">
-                <p className="font-semibold text-md text-gray-900 print:text-sm">Peter Sanga</p>
-                <p className="text-sm text-gray-600 print:text-xs">Officer, GPSA, Tanzania</p>
-                <p className="text-sm text-[#ba1b1b] print:text-xs">perersanga@gmail.com</p>
-              </div>
-            </div>
-          </div>
-
           <div className="text-sm text-gray-600 mt-6 md:mb-0 print:mt-4">
-            <p className="font-medium print:text-xs">Last updated: December 2025</p>
+            <p className="font-medium print:text-xs">Last updated: February 2026</p>
           </div>
         </footer>
       </div>
