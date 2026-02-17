@@ -435,12 +435,9 @@ export default function ResumePage() {
             </h3>
             <div className="mb-4">
               <h4 className="font-semibold text-gray-900 print:text-sm">
-                Bachelor Degree in Information Technology & Computer Programming
+                Bachelor of Science in Information Technology
               </h4>
               <p className="text-[#ba1b1b] font-medium text-sm print:text-xs">National Insitute of Tansport (NIT)</p>
-              <div className="flex items-center mt-2">
-                <span className="text-xs px-2 py-1 bg-red-50 text-[#ba1b1b] rounded-full">2019 - 2022</span>
-              </div>
             </div>
           </section>
 
